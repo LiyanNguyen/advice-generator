@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+	/* Primary Colors */
+	--lightCyan: hsl(193, 38%, 86%);
+	--neonGreen: hsl(150, 100%, 66%);
+
+	/* Neutral Colors */
+	--grayishBlue: hsl(217, 19%, 38%);
+	--darkGrayishBlue: hsl(217, 19%, 24%);
+	--darkBlue: hsl(218, 23%, 16%);
+
+	font-family: 'Manrope', sans-serif;
+	font-size: 28px; /* Quote */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--darkBlue);
+	min-height: 100vh;
+}
+
+main {
+	min-height: 13rem;
+	width: 20.5rem;
+	background-color: var(--darkGrayishBlue);
+	border-radius: .5rem;
+	padding: 2rem;
+	text-align: center;
+	position: relative;
+}
+
+main img {
+	width: 100%;
+}
+
+#advice {
+	font-size: .5rem;
+	text-transform: uppercase;
+	letter-spacing: .15rem;
+	color: var(--neonGreen);
+}
+
+#quote {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	color: var(--lightCyan);
+}
+
+#dice-img {
+	position: absolute;
+	bottom: -1rem;
+	left: 44%;
+	border-radius: 50%;
+	width: 2rem;
+	padding: 1.2rem;
+	background-color: var(--neonGreen);
+	background-image: url(images/icon-dice.svg);
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position: center;
+	cursor: pointer;
+}
+
+#dice-img:hover {
+	box-shadow: 0 0 1rem .5rem hsla(150, 100%, 66%, 0.5);
+}
+
+/* Mobile Viewport */
+@media screen and (max-width: 450px) {
+	main {
+		min-height: 12rem;
+		padding: 1.5rem 1rem;
+		width: 12rem;
+	}
+
+	#advice {
+		font-size: .4rem;
+	}
+
+	#quote {
+		font-size: .8rem;
+	}
+
+	#dice-img {
+		left: 40%;
+	}
+}
