@@ -5,10 +5,12 @@ A Simple Webpage that generates a random advice fetching from [Advice Slip API](
 This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
 ### Screenshot
+![image](https://user-images.githubusercontent.com/50958126/161582423-8d19b73a-a3f8-4753-bb21-c766f8286a08.png)
+![image](https://user-images.githubusercontent.com/50958126/161582691-ec21caf7-71c1-4128-8077-c256cdd28a49.png)
 
 ### Links
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://github.com/LiyanNguyen/advice-generator
+- Live Site URL: https://liyannguyen.github.io/advice-generator
 
 ### My Process
 - Design the Desktop Viewport first, then the Mobile viewport
